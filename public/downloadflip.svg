@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%">
+  <style>
+    @media (min-width: 1700px) {
+      #orangeCircR {
+        cx: 80%;
+      }
+      #blueCircR {
+        cx: 58%;
+        cy: 82%;
+      }
+    }
+    @media (min-width: 2020px) {
+      #orangeCircR {
+        cx: 75%;
+      }
+    }
+    @media (min-width: 2400px) {
+      #orangeCircR {
+        cx: 72%;
+      }
+      #blueCircR {
+        cx: 55%;
+      }
+
+    }
+    @media (max-width: 1699px) {
+      #orangeCircR {
+        cx: 85%;
+      }
+    }
+    @media (max-width: 1440px) {
+      #orangeCircR {
+        cx: 90%;
+      }
+    }
+    @media (max-width: 1160px) {
+      #orangeCircR {
+        cx: 95%;
+      }
+    }
+    @media (max-width: 1024px) {
+      #orangeCircR {
+        cx: 100%;
+      }
+    }
+  </style>
+  <g fill="#61DAFB">
+    <circle id="orangeCircR" cx="88%" cy="0%" r="524" fill="#ED7A28"/>
+    <circle id="blueCircR" cx="60%" cy="80%" r="50" fill="#0091BC" fill-opacity="0.6"/>
+  </g>
+</svg>

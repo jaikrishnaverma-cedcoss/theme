@@ -1,0 +1,78 @@
+.dropbtn {
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+    padding: 10px 0px;
+  }
+  
+  .dropdown-content a:hover{
+    text-decoration: none;
+    display: block;
+    background-color: rgba(26, 25, 25, 0.041);
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #3e8e41;}
+  .hr{
+    background:url('../../public/downloadbg.svg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .dropdown-content a{
+text-decoration: none;
+min-width: 200px;
+  }
+  .sublink{
+    
+    margin: 5px 0px;
+    margin-left: 55px;
+    font-size: .9rem;
+  }
+  .free{
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .free:hover{
+    background-color: transparent;
+  }
+  .dropdown-content a p{
+    color: grey;
+    font-weight: 600;
+  }
+  .limp{
+    color: grey;
+    font-weight: 600;
+  }
+  .limpup:hover{
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.322);
+  }
+  .inputfree{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0% 2%;
+    margin-right: 2%;
+    min-width: 45%;
+    border-radius: 3px;
+  }
+  nav{
+    width: 98% !important;
+  }
