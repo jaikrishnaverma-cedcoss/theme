@@ -17,6 +17,8 @@ import Login from './Component/PAGES/Login';
 
 function App() {
   const [set,setSet]=useState({status:false,email:"",loginStatus:"hide"})
+  const [domains,setDomains]=useState({list:["jai.net","jai.org","anshika.com","aman.net","aman.in","anshika.co","rita.org","rita.shopping"],domain:[".net",".com",".in",".org",".shopping",".co"]});
+  
   const recaptchaRef = React.createRef();
   const loginrecaptchaRef = React.createRef();
   const login=(e)=>{
@@ -43,13 +45,16 @@ setSet({...set})
       // e.preventDefault()
       
   }
+const updateDomain=(newer)=>{
+    setDomains({...newer})
+      }
   return (
     <>
       <div className='col full flexAIC'>
         <Nav />
        
       <Routes>
-        <Route path="/" index element={ <Header />}></Route>
+        <Route path="/" index element={ <Header updateDomain={updateDomain} domains={domains}/>}></Route>
         <Route path='/hrSoftware' element={<HrSoftware />}></Route>
         <Route path='/payroll-software' element={<Payrol />}></Route>
         <Route path='/leave-management-software' element={<Leave />}></Route>
@@ -75,6 +80,7 @@ setSet({...set})
 <div className='flexAIC flexStart mbtner'>
 <button className="mbtn"><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
 </div>
+<img src="Screenshot at 2022-10-21 16-34-00.png" className="full" alt="" />
     </>
   );
 }

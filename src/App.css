@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   border: none;
+  font-family: sans-serif;
   outline: none;
 }
 :root {
@@ -271,4 +272,18 @@ nav p{
 }
 .w48{
 width: 48%;
+}
+.sinput{
+border:1px solid grey;
+color:black;
+}
+.sinput:focus{
+border: 2px solid #008060;
+border-radius: 5px;
+}
+.ssbtn:hover{
+background-color: #002d2d;
+
+border-radius: 5px;
+border-color: #002d2d;
 }
