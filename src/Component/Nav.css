@@ -50,7 +50,7 @@ min-width: 200px;
     font-size: 1em;
   }
   .free:hover{
-    background-color: transparent;
+    background-color: #3e8e41;
   }
   .dropdown-content a p{
     color: grey;

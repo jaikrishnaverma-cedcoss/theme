@@ -33,7 +33,7 @@
   width: 100vw;
 }
 .dbg{
-  background-color: #00a1f2;
+  background-color: #008060;
 }
 .lbg{
   background-color: white;
@@ -47,7 +47,7 @@
   color: white;
 }
 .btn{
-background-color: #00a1f2;
+background-color: #008060;
 color:#fff;
 padding: .5% 1%;
 border-radius:2px;
@@ -82,10 +82,10 @@ border-radius:2px;
 }
 .link{
   text-decoration: none;
-  color: #00a1f2;
+  color: #008060;
 }
 .highlited{
-  color: #00a1f2;
+  color: #008060;
   font-weight: 600; 
 }
 .row{
@@ -162,8 +162,8 @@ border-radius:2px;
 .w90{
   width: 90%;
 }
-.w99{
-  width: 99%;
+.w98{
+  width: 98%;
 }
 .full{
   width: 100%;
@@ -196,8 +196,6 @@ nav *{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .card:hover{
-  min-height: 382px !important;
-  width: 33.1% !important;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .searchbox{
@@ -260,11 +258,11 @@ font-size: 12px;
   color: green !important;
 }
 nav:nth-child(1){
-  background-color: var(--color);
+  background-color: white;
   color: white;
 }
 nav p{
-  color: #fff;
+  /* color: #fff; */
 }
 .hm{
   margin-left:12px ;
@@ -281,9 +279,85 @@ color:black;
 border: 2px solid #008060;
 border-radius: 5px;
 }
+.secnav{
+  background-color: #004c3f !important;
+}
 .ssbtn:hover{
 background-color: #002d2d;
 
 border-radius: 5px;
 border-color: #002d2d;
+}
+.navv span{
+color: white !important;
+font-weight: 600;
+font-size: 14px;
+}
+.imgr{
+  border-radius: 15px;
+  width: 90%;
+  height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.diffrent{
+  font-size: 0.875em;
+  color: #67ccc3;
+  font-weight: 700 !important;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.headders{
+  font-weight: 400;
+  font-size: 45px;
+  color: white;
+}
+.downstar{
+  color: #d6f8f3;
+  margin: 25px 0px 50px 0px;
+  font-size: 1.5em;
+}
+.diffrent,.headders,.downstar{
+  line-height: 1.35;
+}
+.lh{
+  line-height: 2rem;
+  font-size: 1.25em;
+  color:white
+}
+.outliner {
+  background: transparent;
+  border-radius: 4px;
+  color: #008060;
+  padding: 1.5% 2%;
+  font-size: 1.1rem;
+  border: 2px solid #008060;
+  font-weight: 600;
+}
+button.outliner:hover{
+  color: white;
+  background: #008060;
+}
+.sp1{
+  margin-top: 70px;
+  color: #004c3f;
+  font-size: 1.875em;
+  margin-bottom: 0.6em;
+}
+.sp2{
+  font-weight: 400;
+  color: #6b7177;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+.blackbtn{
+  background: #212326;
+  color: white;
+  width: 150px;
+  font-size: 16px;
+  padding: 16px 18px;
+  border-radius: 30px;
+  margin: 30px 0px;
+}
+.doller{
+  font-size: 25px;
 }

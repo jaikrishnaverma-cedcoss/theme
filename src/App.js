@@ -14,6 +14,8 @@ import Pricing from './Component/PAGES/Pricing';
 import Signup from './Component/PAGES/ Signup';
 import React, { useState } from 'react';
 import Login from './Component/PAGES/Login';
+import ThemeHead from './Component/ThemeHead';
+import Theme from './Component/PAGES/Theme';
 
 function App() {
   const [set,setSet]=useState({status:false,email:"",loginStatus:"hide"})
@@ -54,9 +56,11 @@ const updateDomain=(newer)=>{
         <Nav />
        
       <Routes>
-        <Route path="/" index element={ <Header updateDomain={updateDomain} domains={domains}/>}></Route>
+        {/* <Route path="/" index element={ <Header updateDomain={updateDomain} domains={domains}/>}></Route> */}
+        <Route path="/" index element={ <ThemeHead updateDomain={updateDomain} domains={domains}/>}></Route> 
         <Route path='/hrSoftware' element={<HrSoftware />}></Route>
         <Route path='/payroll-software' element={<Payrol />}></Route>
+        <Route path='/Explore-themes' element={<Theme />}></Route>
         <Route path='/leave-management-software' element={<Leave />}></Route>
         <Route path='/attendance-management-software' element={<Attendance/>}></Route>
         <Route path='/employee-self-service-portal' element={<Employee />}></Route>

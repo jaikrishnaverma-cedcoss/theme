@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <>
-      <nav className="row full flexJCC p1 shadow" style={{ position: "fixed" }} >
+      <nav className="row  flexJCC p1 shadow" style={{ position: "fixed" }} >
         <div className="w85 row flexAIC flexSB">
           <div className="row w50 flexSB " >
-            <Link to="/"><img src="MergeResult_2022_10_21_09_37_01.png" width="160px" alt="" /></Link>
+            <Link to="/"><img src="axds.png" width="160px" alt="" /></Link>
             <div className="w80 row flexAIC flexSA">
               <div className="dropdown">
 

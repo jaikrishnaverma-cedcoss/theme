@@ -59,12 +59,6 @@ const Header = (props) => {
           <AlignCard data={{ class: "rowRev", img: "ghr_employee_management.svg", headl1: "EMPLOYEE LIFECYCLE MANAGEMENT", headl2: "COMPLIANCE", pl1: "Process payroll accurately", pl2: "Disburse payslips with one click", pl3: "100% statutory compliance with PF/ESI/PT/TDS etc." }} />
           <AlignCard data={{ class: "", img: "ghr_mobile.svg", headl1: "MOBILE APP FOR EMPLOYEES", headl2: "COMPLIANCE", pl1: "Process payroll accurately", pl2: "Disburse payslips with one click", pl3: "100% statutory compliance with PF/ESI/PT/TDS etc." }} /> */}
                 </div>
-                <div className="col flexAIC">
-                    <p style={{ fontSize: "62px" }}>Empowering</p>
-                    <p style={{ fontSize: "62px" }}>Entrepreneurs everywhere</p>
-                </div>
-
-                <img src="Screenshot_at_2022-10-21_17-45-40-removebg-preview.png" style={{ width: "85%" }} alt="" />
                 <div className="row flexSB w90" style={{ margin: "50px 0px" }}>
                     <div className="col">
                         <p className='dfont' style={{ color: "#004c3f", fontSize: "4em", lineHeight: "4rem", marginBottom: "1.0625rem" }}>Millions</p>
